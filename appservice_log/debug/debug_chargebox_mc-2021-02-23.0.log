@@ -1,0 +1,202 @@
+    2021-02-23 16:40:15.190 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 16:40:15.699 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 16:40:15.699 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:40:15.726 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 16:40:15.727 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:40:15.867 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 16:40:15.870 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 16:40:15.871 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 16:40:15.871 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 16:40:16.509 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 16:40:16.806 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\workdir\routelimit\target\classes\mapping\LogInfoMapper.xml]'
+2021-02-23 16:40:16.851 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 16:40:16.851 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2021-02-23 16:40:16.854 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 16:40:16.854 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-23 16:40:16.855 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-23 16:40:16.855 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-23 16:40:16.859 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-23 16:40:16.859 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-23 16:40:16.859 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-23 16:40:16.860 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-23 16:40:16.860 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-23 16:40:17.109 [main] DEBUG c.g.l.r.s.boot.config.RetrofitAutoConfiguration - No com.github.lianjiatech.retrofit.spring.boot.core.RetrofitFactoryBean found.
+2021-02-23 16:40:17.140 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2021-02-23 16:45:16.811 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 16:45:17.347 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 16:45:17.348 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:45:17.379 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 16:45:17.379 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:45:17.529 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 16:45:17.532 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 16:45:17.533 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 16:45:17.533 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 16:45:18.167 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 16:45:18.440 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\workdir\routelimit\target\classes\mapping\LogInfoMapper.xml]'
+2021-02-23 16:45:18.481 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 16:45:18.481 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2021-02-23 16:45:18.483 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 16:45:18.484 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-23 16:45:18.485 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-23 16:45:18.485 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-23 16:45:18.489 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-23 16:45:18.489 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-23 16:45:18.490 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-23 16:45:18.490 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-23 16:45:18.490 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-23 16:45:18.740 [main] DEBUG c.g.l.r.s.boot.config.RetrofitAutoConfiguration - No com.github.lianjiatech.retrofit.spring.boot.core.RetrofitFactoryBean found.
+2021-02-23 16:45:18.768 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2021-02-23 16:45:43.073 [http-nio-8081-exec-1] DEBUG com.sunyw.xyz.aop.LimitAop - 获取令牌结果为: [true]
+2021-02-23 16:45:43.149 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-02-23 16:45:43.153 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58cbf71a] was not registered for synchronization because synchronization is not active
+2021-02-23 16:45:43.324 [taskThread----1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1363904218 wrapping com.mysql.jdbc.JDBC4Connection@71db96fc] will not be managed by Spring
+2021-02-23 16:45:43.329 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - ==>  Preparing: insert into log_info ( trace_id, request_ip, request_param, request_method, request_time, response_param, response_time, time_consuming ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-02-23 16:45:43.343 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - ==> Parameters: a7d7b011-7586-4354-88c9-4a77d0bc8bfa(String), 192.168.217.1(String), (String), logError(String), 1614069943073(Long), {"msg":"success","code":"200"}(String), 1614069943133(Long), 60(Long)
+2021-02-23 16:45:43.348 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - <==    Updates: 1
+2021-02-23 16:45:43.348 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58cbf71a]
+2021-02-23 16:55:54.779 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 16:55:55.202 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 16:55:55.203 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:55:55.225 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 16:55:55.225 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:55:55.426 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 16:55:55.430 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 16:55:55.431 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 16:55:55.431 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 16:55:56.110 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:12:23.828 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:12:24.291 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:12:24.291 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:12:24.311 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:12:24.312 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:12:24.448 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:12:24.451 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:12:24.452 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:12:24.452 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:12:25.085 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:12:53.141 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:12:53.613 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:12:53.613 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:12:53.634 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:12:53.634 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:12:53.764 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:12:53.768 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:12:53.768 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:12:53.769 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:12:54.421 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:13:53.667 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:13:54.133 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:13:54.134 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:13:54.156 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:13:54.157 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:13:54.297 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:13:54.300 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:13:54.301 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:13:54.301 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:13:54.965 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:14:27.058 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:14:27.544 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:14:27.545 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:14:27.571 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:14:27.572 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:14:27.727 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:14:27.730 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:14:27.731 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:14:27.732 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:14:28.380 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:15:53.696 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:15:54.166 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:15:54.166 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:15:54.188 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:15:54.188 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:15:54.325 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:15:54.328 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:15:54.329 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:15:54.329 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:15:54.973 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:16:13.381 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:16:13.837 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:16:13.837 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:16:13.859 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:16:13.859 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:16:14.003 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:16:14.007 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:16:14.008 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:16:14.008 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:16:14.640 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:17:59.295 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:17:59.724 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:17:59.725 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:17:59.745 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:17:59.745 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:17:59.881 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:17:59.884 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:17:59.885 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:17:59.885 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:18:00.552 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:18:00.839 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\workdir\routelimit\target\classes\mapping\LogInfoMapper.xml]'
+2021-02-23 17:18:00.881 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 17:18:00.881 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2021-02-23 17:18:00.883 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 17:18:00.884 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-23 17:18:00.884 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-23 17:18:00.885 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-23 17:18:00.886 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-23 17:18:00.886 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2021-02-23 17:18:00.886 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2021-02-23 17:18:00.887 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-23 17:18:00.887 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-23 17:18:01.145 [main] DEBUG c.g.l.r.s.boot.config.RetrofitAutoConfiguration - No com.github.lianjiatech.retrofit.spring.boot.core.RetrofitFactoryBean found.
+2021-02-23 17:18:01.175 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2021-02-23 17:19:54.625 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:19:55.107 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:19:55.107 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:19:55.129 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:19:55.129 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:19:55.280 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:19:55.284 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:19:55.284 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:19:55.285 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:19:57.470 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:19:57.747 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\workdir\routelimit\target\classes\mapping\LogInfoMapper.xml]'
+2021-02-23 17:19:57.792 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 17:19:57.793 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2021-02-23 17:19:57.795 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 17:19:57.796 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-23 17:19:57.797 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-23 17:19:57.797 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-23 17:19:57.798 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-23 17:19:57.798 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2021-02-23 17:19:57.798 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2021-02-23 17:19:57.799 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-23 17:19:57.799 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-23 17:19:58.058 [main] DEBUG c.g.l.r.s.boot.config.RetrofitAutoConfiguration - No com.github.lianjiatech.retrofit.spring.boot.core.RetrofitFactoryBean found.
+2021-02-23 17:19:58.088 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2021-02-23 17:20:04.689 [http-nio-8081-exec-1] DEBUG com.sunyw.xyz.aop.LimitAop - 获取令牌结果为: [true]
+2021-02-23 17:20:04.741 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-02-23 17:20:04.745 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d4c6244] was not registered for synchronization because synchronization is not active
+2021-02-23 17:20:04.921 [taskThread----1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@380308232 wrapping com.mysql.jdbc.JDBC4Connection@6c24cb93] will not be managed by Spring
+2021-02-23 17:20:04.925 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - ==>  Preparing: insert into log_info ( trace_id, request_ip, request_param, request_method, request_time, response_param, response_time, time_consuming ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-02-23 17:20:04.940 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - ==> Parameters: b5c60d98-de85-4be8-baa6-3503e0a71d58(String), 192.168.217.1(String), (String), logError(String), 1614072004690(Long), {"msg":"success","code":"200"}(String), 1614072004730(Long), 40(Long)
+2021-02-23 17:20:04.943 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - <==    Updates: 1
+2021-02-23 17:20:04.944 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d4c6244]

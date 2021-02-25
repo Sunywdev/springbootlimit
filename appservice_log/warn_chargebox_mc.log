@@ -1,0 +1,19 @@
+2021-02-25 10:13:56.898 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:15:29.016 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:16:20.450 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:18:58.875 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:21:00.610 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:22:36.660 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:28:40.239 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:30:23.189 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:32:36.431 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:35:05.163 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 10:41:49.815 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 11:14:39.965 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 11:14:40.919 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'limitAop': Unsatisfied dependency expressed through field 'emaiUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emaiUtil': Unsatisfied dependency expressed through field 'jms'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-02-25 11:14:40.941 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-02-25 11:14:53.723 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-25 11:15:30.731 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.

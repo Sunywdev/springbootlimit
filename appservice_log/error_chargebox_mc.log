@@ -1,0 +1,51 @@
+2021-02-25 10:15:35.455 [http-nio-8081-exec-3] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:35.614 [http-nio-8081-exec-5] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:35.755 [http-nio-8081-exec-7] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:35.903 [http-nio-8081-exec-6] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:36.045 [http-nio-8081-exec-4] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:36.185 [http-nio-8081-exec-8] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:36.354 [http-nio-8081-exec-9] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:36.515 [http-nio-8081-exec-10] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:36.663 [http-nio-8081-exec-1] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:36.806 [http-nio-8081-exec-2] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:36.974 [http-nio-8081-exec-3] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:37.130 [http-nio-8081-exec-5] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:40.888 [http-nio-8081-exec-4] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:41.353 [http-nio-8081-exec-8] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:41.817 [http-nio-8081-exec-9] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:15:42.239 [http-nio-8081-exec-10] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:25.992 [http-nio-8081-exec-3] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:26.259 [http-nio-8081-exec-2] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:26.482 [http-nio-8081-exec-4] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:26.643 [http-nio-8081-exec-5] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:26.817 [http-nio-8081-exec-6] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:26.979 [http-nio-8081-exec-7] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:27.133 [http-nio-8081-exec-8] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:27.298 [http-nio-8081-exec-9] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:27.459 [http-nio-8081-exec-10] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:27.616 [http-nio-8081-exec-1] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:27.798 [http-nio-8081-exec-3] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:27.957 [http-nio-8081-exec-2] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:28.115 [http-nio-8081-exec-4] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:28.284 [http-nio-8081-exec-5] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:28.455 [http-nio-8081-exec-6] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:28.630 [http-nio-8081-exec-7] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 10:16:49.817 [http-nio-8081-exec-10] ERROR com.sunyw.xyz.aop.LimitAop - ------------------------访问次数过快,已拒绝请求
+2021-02-25 11:14:41.029 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jms in com.sunyw.xyz.utils.EmaiUtil required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+

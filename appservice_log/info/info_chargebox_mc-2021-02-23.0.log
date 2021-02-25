@@ -1,0 +1,476 @@
+2021-02-23 16:40:15.187 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 16504 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 16:40:15.190 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 16:40:15.191 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 16:40:15.699 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 16:40:15.699 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:40:15.711 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 16:40:15.726 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 16:40:15.727 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:40:15.763 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 16:40:15.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 16:40:15.781 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2021-02-23 16:40:15.867 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 16:40:15.870 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 16:40:15.871 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 16:40:15.871 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 16:40:16.030 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 16:40:16.304 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 16:40:16.311 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 16:40:16.311 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 16:40:16.312 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 16:40:16.385 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 16:40:16.385 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1130 ms
+2021-02-23 16:40:16.509 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 16:40:16.806 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\workdir\routelimit\target\classes\mapping\LogInfoMapper.xml]'
+2021-02-23 16:40:16.836 [main] INFO  com.sunyw.xyz.config.ThreadPoolConfig - <===============================线程池初始化配置开始===============================>
+2021-02-23 16:40:16.836 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-02-23 16:40:16.837 [main] INFO  com.sunyw.xyz.config.ThreadPoolConfig - <===============================线程池初始化配置结束===============================>
+2021-02-23 16:40:16.838 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'threadConfig'
+2021-02-23 16:40:16.851 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 16:40:16.851 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2021-02-23 16:40:16.854 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 16:40:16.854 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-23 16:40:16.855 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-23 16:40:16.855 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-23 16:40:16.856 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-23 16:40:16.859 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-23 16:40:16.859 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-23 16:40:16.859 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-23 16:40:16.860 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-23 16:40:16.860 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-23 16:40:17.109 [main] DEBUG c.g.l.r.s.boot.config.RetrofitAutoConfiguration - No com.github.lianjiatech.retrofit.spring.boot.core.RetrofitFactoryBean found.
+2021-02-23 16:40:17.140 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2021-02-23 16:40:17.302 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-02-23 16:40:17.320 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-23 16:40:17.323 [main] INFO  com.sunyw.xyz.LimitApplication - Started LimitApplication in 2.595 seconds (JVM running for 3.3)
+2021-02-23 16:40:30.913 [http-nio-8081-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 16:40:30.913 [http-nio-8081-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 16:40:30.921 [http-nio-8081-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-02-23 16:40:30.946 [http-nio-8081-exec-3] INFO  com.sunyw.xyz.aop.LimitAop - 测试:RedisRouteLimitConfiguration(replenishrate=, burstcapacity=, acquiredquantity=, formmailaddress=, sendmailaddress=)
+2021-02-23 16:40:30.946 [http-nio-8081-exec-3] INFO  com.sunyw.xyz.aop.LimitAop - ------------------------限流拦截验证开始
+2021-02-23 16:40:31.010 [http-nio-8081-exec-3] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-02-23 16:40:31.010 [http-nio-8081-exec-3] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-02-23 16:40:31.478 [http-nio-8081-exec-3] INFO  com.sunyw.xyz.exception.LimitExceptionAdvice - 开始执行[Exception]异常捕获
+2021-02-23 16:45:16.808 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 10280 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 16:45:16.811 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 16:45:16.812 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 16:45:17.347 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 16:45:17.348 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:45:17.354 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 16:45:17.379 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 16:45:17.379 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:45:17.423 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 16:45:17.424 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 16:45:17.443 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2021-02-23 16:45:17.529 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 16:45:17.532 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 16:45:17.533 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 16:45:17.533 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 16:45:17.707 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 16:45:17.964 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 16:45:17.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 16:45:17.971 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 16:45:17.971 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 16:45:18.044 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 16:45:18.044 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1166 ms
+2021-02-23 16:45:18.167 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 16:45:18.440 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\workdir\routelimit\target\classes\mapping\LogInfoMapper.xml]'
+2021-02-23 16:45:18.468 [main] INFO  com.sunyw.xyz.config.ThreadPoolConfig - <===============================线程池初始化配置开始===============================>
+2021-02-23 16:45:18.468 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-02-23 16:45:18.468 [main] INFO  com.sunyw.xyz.config.ThreadPoolConfig - <===============================线程池初始化配置结束===============================>
+2021-02-23 16:45:18.469 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'threadConfig'
+2021-02-23 16:45:18.481 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 16:45:18.481 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2021-02-23 16:45:18.483 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 16:45:18.484 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-23 16:45:18.485 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-23 16:45:18.485 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-23 16:45:18.486 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-23 16:45:18.489 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-23 16:45:18.489 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-23 16:45:18.490 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-23 16:45:18.490 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-23 16:45:18.490 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-23 16:45:18.740 [main] DEBUG c.g.l.r.s.boot.config.RetrofitAutoConfiguration - No com.github.lianjiatech.retrofit.spring.boot.core.RetrofitFactoryBean found.
+2021-02-23 16:45:18.768 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2021-02-23 16:45:18.931 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-02-23 16:45:18.948 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-23 16:45:18.951 [main] INFO  com.sunyw.xyz.LimitApplication - Started LimitApplication in 2.669 seconds (JVM running for 3.4)
+2021-02-23 16:45:42.415 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 16:45:42.416 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 16:45:42.423 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-02-23 16:45:42.446 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.aop.LimitAop - 测试:RedisRouteLimitConfiguration(replenishrate=1500, burstcapacity=2000, acquiredquantity=1, formmailaddress=, sendmailaddress=)
+2021-02-23 16:45:42.447 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.aop.LimitAop - ------------------------限流拦截验证开始
+2021-02-23 16:45:42.517 [http-nio-8081-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-02-23 16:45:42.518 [http-nio-8081-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-02-23 16:45:43.073 [http-nio-8081-exec-1] DEBUG com.sunyw.xyz.aop.LimitAop - 获取令牌结果为: [true]
+2021-02-23 16:45:43.073 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.aop.LimitAop - ------------------------限流拦截验证通过
+2021-02-23 16:45:43.073 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>方法[限流测试]开始执行,开始时间1614069943073
+2021-02-23 16:45:43.074 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>请求方法路径为:http://localhost:8081/apiv2/logerror
+2021-02-23 16:45:43.074 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>请求参数为:[]
+2021-02-23 16:45:43.131 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>响应参数为: [{"msg":"success","code":"200"}]
+2021-02-23 16:45:43.133 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>执行完毕耗时 :60ms
+2021-02-23 16:45:43.143 [taskThread----1] INFO  com.sunyw.xyz.service.RequestPathSave - 参数信息:LogInfo(id=null, traceId=a7d7b011-7586-4354-88c9-4a77d0bc8bfa, requestIp=192.168.217.1, requestParam=, requestMethod=logError, requestTime=1614069943073, responseParam={"msg":"success","code":"200"}, responseTime=1614069943133, timeConsuming=60)
+2021-02-23 16:45:43.149 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-02-23 16:45:43.153 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58cbf71a] was not registered for synchronization because synchronization is not active
+2021-02-23 16:45:43.174 [taskThread----1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-02-23 16:45:43.322 [taskThread----1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-02-23 16:45:43.324 [taskThread----1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1363904218 wrapping com.mysql.jdbc.JDBC4Connection@71db96fc] will not be managed by Spring
+2021-02-23 16:45:43.329 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - ==>  Preparing: insert into log_info ( trace_id, request_ip, request_param, request_method, request_time, response_param, response_time, time_consuming ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-02-23 16:45:43.343 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - ==> Parameters: a7d7b011-7586-4354-88c9-4a77d0bc8bfa(String), 192.168.217.1(String), (String), logError(String), 1614069943073(Long), {"msg":"success","code":"200"}(String), 1614069943133(Long), 60(Long)
+2021-02-23 16:45:43.348 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - <==    Updates: 1
+2021-02-23 16:45:43.348 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58cbf71a]
+2021-02-23 16:55:54.776 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 18564 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 16:55:54.779 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 16:55:54.779 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 16:55:55.202 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 16:55:55.203 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:55:55.207 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 16:55:55.225 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 16:55:55.225 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 16:55:55.292 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 16:55:55.295 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 16:55:55.315 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-02-23 16:55:55.426 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 16:55:55.430 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 16:55:55.431 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 16:55:55.431 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 16:55:55.600 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 16:55:55.879 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 16:55:55.886 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 16:55:55.886 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 16:55:55.886 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 16:55:55.962 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 16:55:55.962 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1151 ms
+2021-02-23 16:55:56.110 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 16:55:56.219 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'limitAop': Unsatisfied dependency expressed through field 'emaiUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emaiUtil': Unsatisfied dependency expressed through field 'jms'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-02-23 16:55:56.230 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-02-23 16:55:56.241 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-02-23 16:55:56.247 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 17:12:23.826 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 17480 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 17:12:23.828 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:12:23.829 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 17:12:24.291 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:12:24.291 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:12:24.295 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 17:12:24.311 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:12:24.312 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:12:24.351 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 17:12:24.352 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 17:12:24.368 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-02-23 17:12:24.448 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:12:24.451 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:12:24.452 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:12:24.452 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:12:24.615 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 17:12:24.888 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 17:12:24.894 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:12:24.894 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 17:12:24.894 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 17:12:24.966 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 17:12:24.967 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1099 ms
+2021-02-23 17:12:25.085 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:12:25.198 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'limitAop': Unsatisfied dependency expressed through field 'emaiUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emaiUtil': Unsatisfied dependency expressed through field 'jms'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-02-23 17:12:25.209 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-02-23 17:12:25.220 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-02-23 17:12:25.228 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 17:12:53.137 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 21140 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 17:12:53.141 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:12:53.142 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 17:12:53.613 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:12:53.613 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:12:53.617 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 17:12:53.634 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:12:53.634 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:12:53.671 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 17:12:53.672 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 17:12:53.686 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-02-23 17:12:53.764 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:12:53.768 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:12:53.768 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:12:53.769 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:12:53.945 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 17:12:54.228 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 17:12:54.234 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:12:54.235 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 17:12:54.235 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 17:12:54.304 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 17:12:54.305 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1086 ms
+2021-02-23 17:12:54.421 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:12:54.517 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'limitAop': Unsatisfied dependency expressed through field 'emaiUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emaiUtil': Unsatisfied dependency expressed through field 'jms'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-02-23 17:12:54.530 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-02-23 17:12:54.540 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-02-23 17:12:54.547 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 17:13:53.664 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 13840 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 17:13:53.667 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:13:53.667 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 17:13:54.133 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:13:54.134 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:13:54.138 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 17:13:54.156 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:13:54.157 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:13:54.193 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 17:13:54.194 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 17:13:54.209 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-02-23 17:13:54.297 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:13:54.300 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:13:54.301 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:13:54.301 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:13:54.474 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 17:13:54.761 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 17:13:54.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:13:54.770 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 17:13:54.770 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 17:13:54.841 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 17:13:54.842 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1139 ms
+2021-02-23 17:13:54.965 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:13:55.070 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'limitAop': Unsatisfied dependency expressed through field 'emaiUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emaiUtil': Unsatisfied dependency expressed through field 'jms'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-02-23 17:13:55.081 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-02-23 17:13:55.092 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-02-23 17:13:55.099 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 17:14:27.056 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 22464 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 17:14:27.058 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:14:27.059 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 17:14:27.544 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:14:27.545 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:14:27.549 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 17:14:27.571 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:14:27.572 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:14:27.613 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 17:14:27.614 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 17:14:27.634 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2021-02-23 17:14:27.727 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:14:27.730 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:14:27.731 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:14:27.732 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:14:27.911 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 17:14:28.186 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 17:14:28.192 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:14:28.192 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 17:14:28.192 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 17:14:28.262 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 17:14:28.262 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1152 ms
+2021-02-23 17:14:28.380 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:14:28.483 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'limitAop': Unsatisfied dependency expressed through field 'emaiUtil'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'emaiUtil': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2021-02-23 17:14:28.494 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-02-23 17:14:28.507 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-02-23 17:14:28.514 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 17:15:53.693 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 23928 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 17:15:53.696 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:15:53.697 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 17:15:54.166 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:15:54.166 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:15:54.170 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 17:15:54.188 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:15:54.188 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:15:54.225 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 17:15:54.226 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 17:15:54.241 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-02-23 17:15:54.325 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:15:54.328 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:15:54.329 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:15:54.329 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:15:54.500 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 17:15:54.772 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 17:15:54.778 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:15:54.778 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 17:15:54.779 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 17:15:54.851 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 17:15:54.851 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1089 ms
+2021-02-23 17:15:54.973 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:15:55.070 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'limitAop': Unsatisfied dependency expressed through field 'emaiUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emaiUtil': Unsatisfied dependency expressed through field 'jms'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-02-23 17:15:55.081 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-02-23 17:15:55.090 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-02-23 17:15:55.097 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 17:16:13.378 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 20992 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 17:16:13.381 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:16:13.382 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 17:16:13.837 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:16:13.837 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:16:13.841 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 17:16:13.859 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:16:13.859 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:16:13.900 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 17:16:13.902 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 17:16:13.918 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-02-23 17:16:14.003 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:16:14.007 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:16:14.008 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:16:14.008 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:16:14.179 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 17:16:14.441 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 17:16:14.447 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:16:14.448 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 17:16:14.448 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 17:16:14.518 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 17:16:14.518 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1069 ms
+2021-02-23 17:16:14.640 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:16:14.738 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'limitAop': Unsatisfied dependency expressed through field 'emaiUtil'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emaiUtil': Unsatisfied dependency expressed through field 'jms'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-02-23 17:16:14.750 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-02-23 17:16:14.759 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:43)
+2021-02-23 17:16:14.766 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-02-23 17:17:59.292 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 17784 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 17:17:59.295 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:17:59.296 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 17:17:59.724 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:17:59.725 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:17:59.730 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 17:17:59.745 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:17:59.745 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:17:59.781 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 17:17:59.783 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 17:17:59.797 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-02-23 17:17:59.881 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:17:59.884 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:17:59.885 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:17:59.885 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:18:00.066 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 17:18:00.345 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 17:18:00.351 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:18:00.352 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 17:18:00.352 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 17:18:00.427 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 17:18:00.427 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1074 ms
+2021-02-23 17:18:00.552 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:18:00.839 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\workdir\routelimit\target\classes\mapping\LogInfoMapper.xml]'
+2021-02-23 17:18:00.867 [main] INFO  com.sunyw.xyz.config.ThreadPoolConfig - <===============================线程池初始化配置开始===============================>
+2021-02-23 17:18:00.867 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-02-23 17:18:00.867 [main] INFO  com.sunyw.xyz.config.ThreadPoolConfig - <===============================线程池初始化配置结束===============================>
+2021-02-23 17:18:00.868 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'threadConfig'
+2021-02-23 17:18:00.881 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 17:18:00.881 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2021-02-23 17:18:00.883 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 17:18:00.884 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-23 17:18:00.884 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-23 17:18:00.885 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-23 17:18:00.886 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-23 17:18:00.886 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2021-02-23 17:18:00.886 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2021-02-23 17:18:00.887 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-23 17:18:00.887 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-23 17:18:00.890 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-23 17:18:01.145 [main] DEBUG c.g.l.r.s.boot.config.RetrofitAutoConfiguration - No com.github.lianjiatech.retrofit.spring.boot.core.RetrofitFactoryBean found.
+2021-02-23 17:18:01.175 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2021-02-23 17:18:01.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:18:01.360 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-23 17:18:01.362 [main] INFO  com.sunyw.xyz.LimitApplication - Started LimitApplication in 2.508 seconds (JVM running for 3.233)
+2021-02-23 17:19:54.622 [main] INFO  com.sunyw.xyz.LimitApplication - Starting LimitApplication on LAPTOP-OGHTU4D8 with PID 23344 (D:\workdir\routelimit\target\classes started by PC in D:\workdir\routelimit)
+2021-02-23 17:19:54.625 [main] DEBUG com.sunyw.xyz.LimitApplication - Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2021-02-23 17:19:54.626 [main] INFO  com.sunyw.xyz.LimitApplication - No active profile set, falling back to default profiles: default
+2021-02-23 17:19:55.107 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Searching for retrofits annotated with @RetrofitClient
+2021-02-23 17:19:55.107 [main] DEBUG c.g.l.r.s.b.c.AutoConfiguredRetrofitScannerRegistrar - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:19:55.111 [main] WARN  c.g.l.r.s.boot.core.ClassPathRetrofitClientScanner - No RetrofitClient was found in '[com.sunyw.xyz]' package. Please check your configuration.
+2021-02-23 17:19:55.129 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2021-02-23 17:19:55.129 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Using auto-configuration base package 'com.sunyw.xyz'
+2021-02-23 17:19:55.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-02-23 17:19:55.169 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-02-23 17:19:55.185 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2021-02-23 17:19:55.280 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-02-23 17:19:55.284 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\workdir\routelimit\target\classes\com\sunyw\xyz\dao\LogInfoMapper.class]
+2021-02-23 17:19:55.284 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logInfoMapper' and 'com.sunyw.xyz.dao.LogInfoMapper' mapperInterface
+2021-02-23 17:19:55.285 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logInfoMapper'.
+2021-02-23 17:19:56.992 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-23 17:19:57.269 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2021-02-23 17:19:57.275 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:19:57.276 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-02-23 17:19:57.276 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-02-23 17:19:57.348 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-02-23 17:19:57.348 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2660 ms
+2021-02-23 17:19:57.470 [main] DEBUG reactor.util.Loggers$LoggerFactory - Using Slf4j logging framework
+2021-02-23 17:19:57.747 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [D:\workdir\routelimit\target\classes\mapping\LogInfoMapper.xml]'
+2021-02-23 17:19:57.779 [main] INFO  com.sunyw.xyz.config.ThreadPoolConfig - <===============================线程池初始化配置开始===============================>
+2021-02-23 17:19:57.779 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2021-02-23 17:19:57.779 [main] INFO  com.sunyw.xyz.config.ThreadPoolConfig - <===============================线程池初始化配置结束===============================>
+2021-02-23 17:19:57.780 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'threadConfig'
+2021-02-23 17:19:57.792 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 17:19:57.793 [main] DEBUG o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+2021-02-23 17:19:57.795 [main] DEBUG o.h.v.i.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2021-02-23 17:19:57.796 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2021-02-23 17:19:57.797 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2021-02-23 17:19:57.797 [main] DEBUG o.h.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2021-02-23 17:19:57.798 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2021-02-23 17:19:57.798 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2021-02-23 17:19:57.798 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2021-02-23 17:19:57.799 [main] DEBUG o.h.v.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2021-02-23 17:19:57.799 [main] DEBUG o.h.v.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2021-02-23 17:19:57.802 [main] DEBUG o.h.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2021-02-23 17:19:58.058 [main] DEBUG c.g.l.r.s.boot.config.RetrofitAutoConfiguration - No com.github.lianjiatech.retrofit.spring.boot.core.RetrofitFactoryBean found.
+2021-02-23 17:19:58.088 [main] DEBUG o.m.s.boot.autoconfigure.MybatisAutoConfiguration - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2021-02-23 17:19:58.255 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2021-02-23 17:19:58.274 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2021-02-23 17:19:58.276 [main] INFO  com.sunyw.xyz.LimitApplication - Started LimitApplication in 4.119 seconds (JVM running for 4.907)
+2021-02-23 17:20:04.131 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-23 17:20:04.131 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-02-23 17:20:04.138 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-02-23 17:20:04.158 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.aop.LimitAop - 测试:RedisRouteLimitConfiguration(replenishrate=1500, burstcapacity=2000, acquiredquantity=1, formmailaddress=, sendmailaddress=, startlog=true)
+2021-02-23 17:20:04.158 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.aop.LimitAop - ------------------------限流拦截验证开始
+2021-02-23 17:20:04.221 [http-nio-8081-exec-1] INFO  io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-02-23 17:20:04.222 [http-nio-8081-exec-1] INFO  io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-02-23 17:20:04.689 [http-nio-8081-exec-1] DEBUG com.sunyw.xyz.aop.LimitAop - 获取令牌结果为: [true]
+2021-02-23 17:20:04.689 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.aop.LimitAop - ------------------------限流拦截验证通过
+2021-02-23 17:20:04.690 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>方法[限流测试]开始执行,开始时间1614072004690
+2021-02-23 17:20:04.690 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>请求方法路径为:http://localhost:8081/apiv2/logerror
+2021-02-23 17:20:04.690 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>请求参数为:[]
+2021-02-23 17:20:04.729 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>响应参数为: [{"msg":"success","code":"200"}]
+2021-02-23 17:20:04.730 [http-nio-8081-exec-1] INFO  com.sunyw.xyz.controller.AopWeb - [环绕日志]>>>>>>>>>>>>>>>>>>>>>>>>>执行完毕耗时 :40ms
+2021-02-23 17:20:04.736 [taskThread----1] INFO  com.sunyw.xyz.service.RequestPathSave - 参数信息:LogInfo(id=null, traceId=b5c60d98-de85-4be8-baa6-3503e0a71d58, requestIp=192.168.217.1, requestParam=, requestMethod=logError, requestTime=1614072004690, responseParam={"msg":"success","code":"200"}, responseTime=1614072004730, timeConsuming=40)
+2021-02-23 17:20:04.741 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2021-02-23 17:20:04.745 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d4c6244] was not registered for synchronization because synchronization is not active
+2021-02-23 17:20:04.762 [taskThread----1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-02-23 17:20:04.918 [taskThread----1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-02-23 17:20:04.921 [taskThread----1] DEBUG o.m.spring.transaction.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@380308232 wrapping com.mysql.jdbc.JDBC4Connection@6c24cb93] will not be managed by Spring
+2021-02-23 17:20:04.925 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - ==>  Preparing: insert into log_info ( trace_id, request_ip, request_param, request_method, request_time, response_param, response_time, time_consuming ) values ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-02-23 17:20:04.940 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - ==> Parameters: b5c60d98-de85-4be8-baa6-3503e0a71d58(String), 192.168.217.1(String), (String), logError(String), 1614072004690(Long), {"msg":"success","code":"200"}(String), 1614072004730(Long), 40(Long)
+2021-02-23 17:20:04.943 [taskThread----1] DEBUG com.sunyw.xyz.dao.LogInfoMapper.insertSelective - <==    Updates: 1
+2021-02-23 17:20:04.944 [taskThread----1] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d4c6244]

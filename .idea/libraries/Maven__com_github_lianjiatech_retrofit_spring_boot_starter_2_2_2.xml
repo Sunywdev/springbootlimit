@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.lianjiatech:retrofit-spring-boot-starter:2.2.2">
+    <CLASSES>
+      <root url="jar://D:/dev/res/com/github/lianjiatech/retrofit-spring-boot-starter/2.2.2/retrofit-spring-boot-starter-2.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/dev/res/com/github/lianjiatech/retrofit-spring-boot-starter/2.2.2/retrofit-spring-boot-starter-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/dev/res/com/github/lianjiatech/retrofit-spring-boot-starter/2.2.2/retrofit-spring-boot-starter-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
