@@ -9,7 +9,7 @@
 <dependency>
   <groupId>com.github.sunywdev</groupId>
   <artifactId>routelimit</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
 ### 基于令牌桶
