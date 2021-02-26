@@ -20,12 +20,4 @@ public class RedisLimitConfig {
         redisScript.setResultType (Boolean.class);
         return redisScript;
     }
-
-    @Bean("redisScriptAsp")
-    public RedisScript<Boolean> redisScriptAsp() {
-        DefaultRedisScript<Boolean> redisScript = new DefaultRedisScript<> ();
-        redisScript.setLocation (new ClassPathResource ("lua/rate.lua"));
-        redisScript.setResultType (Boolean.class);
-        return redisScript;
-    }
 }

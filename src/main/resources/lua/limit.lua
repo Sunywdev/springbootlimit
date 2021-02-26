@@ -54,8 +54,10 @@ if allowed then
 end
 
 -- 存到redis
-redis.call("setex", tokens_key, ttl, new_tokens)
-redis.call("setex", timestamp_key, ttl, now)
+if ttl > 0 then
+    redis.call("setex", tokens_key, ttl, new_tokens)
+    redis.call("setex", timestamp_key, ttl, now)
+end
 --  lua可以返回多个字段，java获取时用List获取
 -- new_tokens:剩余token
 redis.log(redis.LOG_WARNING, "-------------------------当前剩余令牌数量为:" .. new_tokens)
