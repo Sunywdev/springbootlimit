@@ -14,15 +14,15 @@
 ```
 ### 基于令牌桶
 ```
-    @GetMapping("/logerror")
-    @Log(name = "限流测试")
-    @RouteLimiter(acquiredQuantity = 1,burstCapacity = 2,repleniShrate = 1)
-    public Map<String, Object> logError() {
-        Map<String, Object> respMap = new HashMap<>();
-        respMap.put("code", "200");
-        respMap.put("msg", "success");
-        return respMap;
-    }
+@GetMapping("/logerror")
+@Log(name = "限流测试")
+@RouteLimiter(acquiredQuantity = 1,burstCapacity = 2,repleniShrate = 1)
+public Map<String, Object> logError() {
+    Map<String, Object> respMap = new HashMap<>();
+    respMap.put("code", "200");
+    respMap.put("msg", "success");
+    return respMap;
+}
 ```
 ### 令牌数量以及令牌桶的配置
 ```
@@ -34,7 +34,7 @@ route:
   #每次获取令牌数量
   acquiredquantity: 1
 ```
-### 此外还搭配了邮件通知
+### 邮件通知
 ```
 mail:
     #协议地址
