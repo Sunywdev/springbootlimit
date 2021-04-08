@@ -90,20 +90,10 @@ public class LogAsp {
         try {
             proceed = joinPoint.proceed();
         } catch (LimitException e) {
-            log.info("[异常日志]>>>>>>>>>>>>>>>>>>>>>>>>>开始进行记录");
-            String stackTrace = stackTrace(e);
-            log.info("[异常日志]>>>>>>>>>>>>>>>>>>>>>>>>>错误信息为:{}", stackTrace);
-            if (limitConfiguration.getStartlog()) {
-                requestPathSave.saveRequestPath(startTime, System.currentTimeMillis(), IpUtils.getIpAddr(request), params + "", e.getDesc(), method.getName(), MDC.get(traceId));
-            }
+            save(startTime, request, params, method, e);
             throw new LimitException(e.getCode(), e.getDesc());
-        } catch (Exception e) {
-            log.info("[异常日志]>>>>>>>>>>>>>>>>>>>>>>>>>开始进行记录");
-            String stackTrace = stackTrace(e);
-            log.info("[异常日志]>>>>>>>>>>>>>>>>>>>>>>>>>错误信息为:{}", stackTrace);
-            if (limitConfiguration.getStartlog()) {
-                requestPathSave.saveRequestPath(startTime, System.currentTimeMillis(), IpUtils.getIpAddr(request), params + "", e.getMessage(), method.getName(), MDC.get(traceId));
-            }
+        }catch (Exception e) {
+            save(startTime, request, params, method, e);
             throw new Exception(e.getMessage());
         }
         Object Json;
@@ -120,6 +110,7 @@ public class LogAsp {
         }
         return proceed;
     }
+
     /**
      * 堆栈异常获取
      *
@@ -144,5 +135,23 @@ public class LogAsp {
         ServletRequestAttributes servletRequestAttributes = (ServletRequestAttributes) requestAttributes;
         assert servletRequestAttributes != null;
         return servletRequestAttributes.getRequest();
+    }
+
+    /**
+     * 记录方法
+     *
+     * @param startTime 开始时间
+     * @param request   http
+     * @param params    请求参数
+     * @param method    方法信息
+     * @param e         异常信息
+     */
+    public void save(long startTime, HttpServletRequest request, Object params, Method method, Exception e) {
+        String stackTrace = stackTrace(e);
+        log.info("[异常日志]>>>>>>>>>>>>>>>>>>>>>>>>>错误信息为:{}", stackTrace);
+        if (limitConfiguration.getStartlog()) {
+            log.info("[异常日志]>>>>>>>>>>>>>>>>>>>>>>>>>开始进行记录");
+            requestPathSave.saveRequestPath(startTime, System.currentTimeMillis(), IpUtils.getIpAddr(request), params + "", e.getMessage(), method.getName(), MDC.get(traceId));
+        }
     }
 }
