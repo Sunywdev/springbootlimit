@@ -12,7 +12,7 @@
   <version>1.0.1</version>
 </dependency>
 ```
-### 基于令牌桶
+### 针对接口配置固定限流数量
 ```
 @GetMapping("/logerror")
 @Log(name = "限流测试")
@@ -24,7 +24,7 @@ public Map<String, Object> logError() {
     return respMap;
 }
 ```
-### 令牌数量以及令牌桶的配置
+### 全局限流,根据请求接口地址进行流量限制
 ```
 route:
   #每秒产生的令牌数量
