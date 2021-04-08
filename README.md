@@ -81,3 +81,89 @@ public class LimitExceptionAdvice {
 ```
 ### 日志记录
 - route.startlog :true(开启),默认关闭,开启时需要初始化根目录下db文件夹内log_info.sql初始化
+
+
+
+# routelimit
+-Gateway distributed current limiting implementation, based on redis+lua
+-1. Based on redis token bucket form
+-2. Current limit warning
+-3. Asynchronous log link tracking
+## How to use
+## maven dependency
+```
+<dependency>
+  <groupId>com.github.sunywdev</groupId>
+  <artifactId>routelimit</artifactId>
+  <version>1.0.1</version>
+</dependency>
+```
+### Based on token bucket
+```
+@GetMapping("/logerror")
+@Log(name = "Current Limit Test")
+@RouteLimiter(acquiredQuantity = 1, burstCapacity = 2, repleniShrate = 1)
+public Map<String, Object> logError() {
+    Map<String, Object> respMap = new HashMap<>();
+    respMap.put("code", "200");
+    respMap.put("msg", "success");
+    return respMap;
+}
+```
+### The number of tokens and the configuration of the token bucket
+```
+route:
+  #Number of tokens generated per second
+  replenishrate: 1
+  #Token capacity in bucket
+  burstcapacity: 10
+  #Get the number of tokens each time
+  acquiredquantity: 1
+```
+### E-mail notification
+```
+mail:
+    #Protocol address
+    host: smtp.163.com
+    #Sender's mailbox
+    username:
+    #Authorization number authpsd
+    password:
+ #Sender's mailbox
+  formmailaddress:
+  #Service exception notification person mailbox, multiple uses, separate
+  sendmailaddress:
+```
+### Global exception handling
+```
+@ControllerAdvice
+@Slf4j
+public class LimitExceptionAdvice {
+
+    @ExceptionHandler(value = Exception.class)
+    public Object invoke(Exception https) {
+        log.info ("Start to execute [Exception] exception capture");
+        ModelAndView modelAndView = new ModelAndView (new MappingJackson2JsonView ());
+        modelAndView.addObject ("code",HttpStatus.INTERNAL_SERVER_ERROR.value()+"");
+        modelAndView.addObject ("msg", https.getMessage ());
+        return modelAndView;
+    }
+
+    /**
+     * LimitException global exception capture
+     *
+     * @param https
+     * @return
+     */
+    @ExceptionHandler(value = LimitException.class)
+    public Object invoke(LimitException https) {
+        log.info ("Start to execute [LimitException] exception capture");
+        ModelAndView modelAndView = new ModelAndView (new MappingJackson2JsonView ());
+        modelAndView.addObject ("code", https.getCode ());
+        modelAndView.addObject ("msg", https.getDesc ());
+        return modelAndView;
+    }
+}
+```
+### Logging
+-route.startlog: true (open), closed by default, you need to initialize log_info.sql in the db folder under the root directory when it is turned on
