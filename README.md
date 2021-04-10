@@ -86,9 +86,9 @@ public class LimitExceptionAdvice {
 
 # routelimit
 -Gateway distributed current limiting implementation, based on redis+lua
--1. Based on redis token bucket form
--2. Current limit warning
--3. Asynchronous log link tracking
+- 1. Based on redis token bucket form
+- 2. Current limit warning
+- 3. Asynchronous log link tracking
 ## How to use
 ## maven dependency
 ```
