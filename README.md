@@ -48,37 +48,6 @@ mail:
   #服务异常通知人邮箱,多个使用 , 分隔开
   sendmailaddress:
 ```
-### 全局异常处理
-```
-@ControllerAdvice
-@Slf4j
-public class LimitExceptionAdvice {
-
-    @ExceptionHandler(value = Exception.class)
-    public Object invoke(Exception https) {
-        log.info ("开始执行[Exception]异常捕获");
-        ModelAndView modelAndView = new ModelAndView (new MappingJackson2JsonView ());
-        modelAndView.addObject ("code",HttpStatus.INTERNAL_SERVER_ERROR.value()+"");
-        modelAndView.addObject ("msg", https.getMessage ());
-        return modelAndView;
-    }
-
-    /**
-     * LimitException 全局异常捕获
-     *
-     * @param https
-     * @return
-     */
-    @ExceptionHandler(value = LimitException.class)
-    public Object invoke(LimitException https) {
-        log.info ("开始执行[LimitException]异常捕获");
-        ModelAndView modelAndView = new ModelAndView (new MappingJackson2JsonView ());
-        modelAndView.addObject ("code", https.getCode ());
-        modelAndView.addObject ("msg", https.getDesc ());
-        return modelAndView;
-    }
-}
-```
 ### 日志记录
 - route.startlog :true(开启),默认关闭,开启时需要初始化根目录下db文件夹内log_info.sql初始化
 
@@ -133,37 +102,6 @@ mail:
   formmailaddress:
   #Service exception notification person mailbox, multiple uses, separate
   sendmailaddress:
-```
-### Global exception handling
-```
-@ControllerAdvice
-@Slf4j
-public class LimitExceptionAdvice {
-
-    @ExceptionHandler(value = Exception.class)
-    public Object invoke(Exception https) {
-        log.info ("Start to execute [Exception] exception capture");
-        ModelAndView modelAndView = new ModelAndView (new MappingJackson2JsonView ());
-        modelAndView.addObject ("code",HttpStatus.INTERNAL_SERVER_ERROR.value()+"");
-        modelAndView.addObject ("msg", https.getMessage ());
-        return modelAndView;
-    }
-
-    /**
-     * LimitException global exception capture
-     *
-     * @param https
-     * @return
-     */
-    @ExceptionHandler(value = LimitException.class)
-    public Object invoke(LimitException https) {
-        log.info ("Start to execute [LimitException] exception capture");
-        ModelAndView modelAndView = new ModelAndView (new MappingJackson2JsonView ());
-        modelAndView.addObject ("code", https.getCode ());
-        modelAndView.addObject ("msg", https.getDesc ());
-        return modelAndView;
-    }
-}
 ```
 ### Logging
 -route.startlog: true (open), closed by default, you need to initialize log_info.sql in the db folder under the root directory when it is turned on
