@@ -1,4 +1,4 @@
-# routelimit
+![avatar](/img/routelimit.jpg)
 - 网关分布式限流实现,基于redis+lua
 - 1.基于redis令牌桶形式
 - 2.限流预警
